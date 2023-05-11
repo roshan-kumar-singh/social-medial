@@ -1,0 +1,30 @@
+.info-container{
+    width: 45.6rem;
+    height: 8.7rem;
+    border-radius: .9rem;
+    background: #FFFFFF;
+    padding: .89rem  3.6rem 0 2.5rem;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+.info-container .subject .heading{
+    font-weight: 500;
+    font-size: 1.49rem;
+    line-height: 2.1rem;
+    color: #959595;
+    margin-bottom: 1rem;
+}
+.info-container .subject .content{
+    font-weight: 500;
+    font-size: 1.79rem;
+    line-height: 2.5rem;
+}
+.info-container .action{
+    background: transparent;
+    border: none;
+    font-weight: 500;
+    font-size: 1.49rem;
+    line-height: 2.1rem;
+    color: #1B47C1;
+}

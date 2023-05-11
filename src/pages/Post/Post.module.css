@@ -1,0 +1,454 @@
+.Container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.Container::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* Post start */
+.PostIndex {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.54));
+    border-radius: 0px 47px 0px 0px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.PostIndex img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.PostIndexBtnContainer {
+    width: 257.47px;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.PostIndexBtnContainer button {
+    width: 257.47px;
+    height: 79.98px;
+    background: #FFFFFF;
+    border: 1.949px solid #FFFFFF;
+    margin-bottom: 17px;
+    font-weight: 400;
+    font-size: 27.286px;
+    line-height: 41px;
+    color: #000000;
+    cursor: pointer;
+}
+
+.PostIndexBtnContainer button:last-child {
+    background: transparent;
+    color: #fff;
+}
+
+/* Post end */
+
+
+
+/* EditPost Start */
+.Post {
+    display: flex;
+    flex-direction: column;
+}
+
+.EditPostBody {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    /* padding-top: 96px; */
+    padding-top: 26px;
+}
+
+.EditPostBodyLeft {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.EditPostBox {
+    width: 670px;
+    height: 448px;
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 35.25%);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.ImageContainer {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.ImageContainer img {
+    width: 100%;
+    height: 100%;
+}
+
+.EditPostBox h1 {
+    width: 100%;
+    height: 73.12px;
+    background: #161616;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26.5895px;
+    line-height: 32px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.LeftBottom {
+    width: 670px;
+    height: 148px;
+    margin-top: 20px;
+}
+
+
+/* EnablePollContainer Start */
+.EnablePollContainer {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 20px;
+}
+
+.EnablePollContainer .left {
+    height: 100%;
+}
+
+.EnablePollContainer .left button {
+    width: 78.81px;
+    height: 58.81px;
+    background: #909AFF;
+    border: 1.44056px solid #919AFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20.1678px;
+    line-height: 30px;
+    color: #FAFAFF;
+    margin-right: 9px;
+    cursor: pointer;
+}
+
+.EnablePollContainer .left button:first-child {
+    width: 78.81px;
+    height: 58.81px;
+    background: transparent;
+    color: #5766F9;
+    border: 1.44056px solid #919AFF;
+}
+
+.EnablePollContainer .left button:hover {
+    transition: all .3s ease-in-out;
+    background: #5766F9;
+    color: #fff;
+}
+
+.EnablePollContainer .right {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.EnablePollContainer .right p {
+    margin-right: 13px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20.1678px;
+    line-height: 30px;
+    color: #000000;
+}
+
+/* EnablePollContainer End */
+
+.ShowPollResult {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px 0 15px;
+    margin-top: 15px;
+}
+
+.ShowPollResult p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20.1678px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.PollContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.PollContainer p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12.7045px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.PollsCont {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 5px;
+}
+
+.PollsCont label {
+    display: flex;
+}
+
+/* FIXME: */
+.PollsCont label input {
+    margin-left: 8px;
+    height: 13.97px;
+    background: #4A72FE;
+    width: 307.45px;
+}
+
+.PollsCont label p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12.7045px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-left: 7px;
+}
+
+
+
+
+.EditPostBodyRight {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.RightInner {
+    width: 433.35px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.SetTimerContainer p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.6275px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.SetTimerInner {
+    padding: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.SetTimerInnerLeft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13.63px;
+}
+
+.dates {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44.25px;
+    height: 43.25px;
+    background: #E1E4FF;
+    border-radius: 1362.75px;
+    cursor: pointer;
+}
+
+.dates:first-child {
+    background: #909AFF;
+    color: #FFFFFF;
+}
+
+.SetTimerInnerRight {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.6275px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.describeContainer {
+    margin-top: 46px;
+}
+
+.describeContainer p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.6275px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 26px;
+}
+
+.describeContainer textarea {
+    width: 100%;
+    height: 98.12px;
+    outline: none;
+    background: #E7E9FE;
+    border: 1.36275px solid rgba(40, 40, 40, 0.21);
+    border-radius: 6.81374px;
+    resize: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.6275px;
+    line-height: 16px;
+    color: #000000;
+    padding: 10px 15px;
+}
+
+.PostContainer {
+    margin-top: 33px;
+}
+
+.PostContainer p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.6275px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 12px;
+}
+
+.PostCont1 {
+    width: 100%;
+    height: 162.76px;
+    background: #FFFFFF;
+    border-radius: 7.26886px;
+    margin-bottom: 13px;
+    padding: 20px 44px 0 25px;
+}
+
+.PostCont1 h2 {
+    display: block;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20.0693px;
+    line-height: 138.4%;
+    color: #000000;
+
+}
+
+.PostCont1Inn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 19px;
+}
+
+.PostCont1Inn h5 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11.6302px;
+    line-height: 138.4%;
+    color: #323232;
+}
+
+.PostCont1Inn p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10.1764px;
+    line-height: 138.4%;
+    color: #3A0DBB;
+}
+
+.PostCont2 {
+    width: 100%;
+    height: 150.38px;
+    background: #FFFFFF;
+    border-radius: 7.26886px;
+    padding: 21px 46px 0 27px;
+
+}
+
+.PostCont2 p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8.72263px;
+    line-height: 138.4%;
+    color: #959595;
+}
+
+.PostCont2Inn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 14px;
+}
+
+.PostCont2Inn h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10.1764px;
+    line-height: 138.4%;
+    color: #323232;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* EditPost End */

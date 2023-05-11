@@ -1,0 +1,135 @@
+.overlay {
+    background-color: #E7E9FE;
+    padding: 7.1rem 36.9rem 7rem 36.9rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    width: 121rem;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.overlay .form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.overlay .form .text h2 {
+    font-weight: 500;
+    font-size: 3.1rem;
+    line-height: 4.8rem;
+    color: #444444;
+}
+
+.overlay .form .text p {
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    color: #999999;
+}
+
+.overlay .form .duration {
+    margin-top: 2.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3.8rem;
+}
+
+.overlay .form .duration .input {
+    text-align: center;
+    padding: 1rem;
+    width: 11.8rem;
+    border: none;
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    color: #444444;
+    background: transparent;
+    cursor: pointer;
+}
+
+.overlay .form .duration .input-active {
+    text-align: center;
+    padding: 1rem;
+    width: 11.8rem;
+    border: none;
+    background: rgba(241, 53, 53, 0.13);
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    color: #FE5151;
+    cursor: pointer;
+}
+
+.overlay .form .address-section .address {
+    display: flex;
+    flex-direction: column;
+}
+
+.overlay .form label {
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    color: #444444;
+}
+
+.overlay .form .address-section input {
+    width: 26rem;
+    padding: 1rem;
+    border-radius: 10px;
+    background: #F2F2F2;
+    font-weight: 500;
+    font-size: .68rem;
+    line-height: 1rem;
+    color: #AAAAAA;
+    border: none;
+    overflow: hidden;
+    margin: .5rem 0;
+}
+
+.overlay .form .info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 3.1rem;
+}
+
+.overlay .form .info input {
+    padding: 1.5rem;
+    border-radius: 10px;
+    background: #F2F2F2;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    color: #000;
+    border: none;
+    overflow: hidden;
+    margin: .5rem 0;
+}
+
+.overlay .form .actions {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.overlay .form .actions .btn {
+    font-size: 2rem;
+    line-height: 3rem;
+    padding: 2rem;
+    font-weight: 500;
+    background-color: #FE5151;
+    color: #ffffff;
+    border: none;
+    filter: drop-shadow(0px, 5.87px, 29.35px rgba(0, 0, 0, 0.25));
+}
+
+.overlay .form .actions .link {
+    background: none;
+    border: none;
+    width: 20rem;
+    color: #444444;
+}

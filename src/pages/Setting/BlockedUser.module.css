@@ -1,0 +1,184 @@
+.Container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.Container::-webkit-scrollbar {
+    display: none;
+}
+
+.BlockedUser {
+    display: flex;
+    gap: 6.9rem;
+    justify-content: center;
+}
+
+.LeftBlockedUserContainer {
+    position: relative;
+    height: 100%;
+    width: 52rem;
+    font-size: 1rem;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    padding: 0 1rem 3rem 1rem;
+}
+
+.LeftBlockedUserContainer::-webkit-scrollbar {
+    display: none;
+}
+
+.BlockedUserText {
+    position: sticky;
+    top: 0;
+    width: 105%;
+    background: #E7E9FE;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 4.2rem;
+    line-height: 5.8rem;
+    color: #000000;
+    margin-bottom: 1.2rem;
+    padding-top: 3rem;
+}
+
+.BlockedUserDetail {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    color: #000000;
+    margin-bottom: 3.7rem;
+}
+
+.BlockUserBox {
+    width: 100%;
+    height: 9.7rem;
+    background: #F5F5F5;
+    margin-bottom: 1.9rem;
+    box-shadow: 2px 2px 6px 1px rgba(0, 0, 0, .1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2.7rem 0 1.4rem;
+}
+
+.BlockBoxLeft {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.BlockBoxLeft img {
+    width: 7.2rem;
+    height: 7.2rem;
+    border-radius: 50%;
+}
+
+.BlockBoxLeft div h5 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.2rem;
+    line-height: 3rem;
+    color: #000000;
+}
+
+.BlockBoxLeft div p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    color: #4A4A4A;
+}
+
+.BlockUserBox button {
+    background: transparent;
+    padding: .5rem 1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    color: #3A0DBB;
+}
+
+.RightBlockedUserContainer {
+    width: 52rem;
+    height: 100%;
+    position: relative;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.RightBlockedUserContainer::-webkit-scrollbar {
+    display: none;
+}
+
+.LeftArrow {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 7.5rem;
+    height: 7.2rem;
+    background: #3A0DBB;
+    border-radius: 13.9px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Note {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.8rem;
+    line-height: 3.9rem;
+    color: #000000;
+    margin-bottom: 1.7rem;
+    margin-top: 11rem;
+}
+
+.NoteText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    color: #403F3F;
+    margin-bottom: 5.4rem;
+}
+
+.BlockedPagesText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.8rem;
+    line-height: 3.9rem;
+    color: #000000;
+    margin-bottom: 2.8rem;
+}
+
+.BlockPageContainer {
+    width: 100%;
+    height: 60%;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    padding-bottom: 3rem;
+}
+
+.BlockPageContainer::-webkit-scrollbar {
+    display: none;
+}

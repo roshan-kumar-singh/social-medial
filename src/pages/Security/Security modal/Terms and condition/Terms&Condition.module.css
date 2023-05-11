@@ -1,0 +1,34 @@
+.outerDiv {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.overlay {
+    background-color: white;
+    padding: 6rem 12rem 9rem 9.9rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    width: 121rem;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.overlay h2 {
+    font-weight: 500;
+    font-size: 4.2rem;
+    line-height: 6.3rem;
+    color: #444444;
+    margin-bottom: 2.5rem;
+}
+
+.overlay article {
+    font-weight: 400;
+    font-size: 1.7rem;
+    line-height: 3.3rem;
+    color: #999999;
+    text-align: justify;
+}

@@ -1,0 +1,160 @@
+.Container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.Container::-webkit-scrollbar {
+    display: none;
+}
+
+.FollowList {
+    display: flex;
+    gap: 8.4rem;
+    justify-content: center;
+}
+
+.LeftFollowListContainer {
+    position: relative;
+    height: 100%;
+    width: 62rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.RightFollowListContainer {
+    position: relative;
+    height: 100%;
+    width: 62rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.SearchContainer {
+    margin-top: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .3rem;
+    padding-right: 5rem;
+    margin-bottom: 2.3rem;
+    overflow: hidden;
+}
+
+.SearchContainer h4 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.95rem;
+    line-height: 2.4rem;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.search {
+    width: 30rem;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    padding: 0 1rem;
+    border: none;
+    transform: translateX(35rem);
+    transition: all .2s ease-in;
+}
+
+.search.ActiveSearch input {
+    transform: translateX(0rem);
+}
+
+.SearchContainer img {
+    cursor: pointer;
+}
+
+.ListContainer {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    padding-bottom: 3rem;
+}
+
+.ListContainer::-webkit-scrollbar {
+    display: none;
+}
+
+.FollowBox {
+    width: 100%;
+    height: 13.27rem;
+    background: #E7E9FE;
+    border: 1.95163px solid #AFB6FD;
+    border-radius: 19.5163px;
+    margin-bottom: 1.36rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+
+.FollowLeft {
+    display: flex;
+    align-items: center;
+    gap: 2.34rem;
+}
+
+.FollowLeft img {
+    width: 9.4rem;
+    height: 9.4rem;
+    border-radius: 50%;
+}
+
+.FollowLeft h5 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.7rem;
+    line-height: 3.8rem;
+    color: #000000;
+}
+
+.FollowLeft p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.95rem;
+    line-height: 2.7rem;
+    color: #4A4A4A;
+}
+
+.FollowBox button {
+    width: 15.3rem;
+    height: 6.6rem;
+    background: #1B47C1;
+    border-radius: 9.75813px;
+    border: none;
+    outline: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.95rem;
+    line-height: 2.7rem;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.FollowBox button.active {
+    background: rgba(132, 152, 209, 0.28);
+    color: #1B47C1;
+}

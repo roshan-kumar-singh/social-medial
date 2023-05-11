@@ -1,0 +1,872 @@
+.Container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.Container::-webkit-scrollbar {
+    display: none;
+}
+
+.Chat {
+    display: flex;
+}
+
+.LeftChatContainer {
+    position: relative;
+    height: 100%;
+    width: 55.7rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin-left: 3.7rem;
+    padding: 0 3.7rem 0 2.6rem;
+}
+
+.ChatText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 4.2rem;
+    line-height: 5.8rem;
+    color: #000000;
+    margin: 6.8rem 0 3.9rem 2.2rem;
+}
+
+.SearchSettingContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 4.1rem;
+    gap: 3.2rem;
+}
+
+.SearchContainer {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #000;
+}
+
+.SearchContainer input {
+    width: 100%;
+    height: 3.5rem;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    color: #3A3A3A;
+}
+
+.SettingIcon {
+    width: 5.2rem;
+    height: 5.2rem;
+    background: #F0F0F0;
+    border-radius: 12.381px;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.SettingIcon img {
+    width: 100%;
+    height: 100%;
+}
+
+.OnlineContainer {
+    margin-bottom: 3.1rem;
+    position: relative;
+    height: 10.8rem;
+    overflow: hidden;
+}
+
+.OnlineContainer h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    color: #000000;
+    margin-bottom: 1.3rem;
+}
+
+.OnlineBoxContainer {
+    height: 49rem;
+    width: 7rem;
+    transform: rotate(270deg);
+    transform-origin: top left;
+    overflow-y: scroll;
+    position: absolute;
+    top: 10.5rem;
+    left: 0;
+    padding-bottom: 5rem;
+}
+
+.OnlineBoxContainer::-webkit-scrollbar {
+    display: none;
+}
+
+.OnlineBox {
+    width: 7rem;
+    height: 7rem;
+    position: relative;
+    margin-bottom: 1.4rem;
+    overflow: hidden;
+    transform: rotate(90deg);
+}
+
+.OnlineBox img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.greenDot {
+    width: 1.7rem;
+    height: 1.7rem;
+    border-radius: 50%;
+    border: 1px solid #FEFEFE;
+    background: #1E6B17;
+    z-index: 2;
+    position: absolute;
+    bottom: .1rem;
+    right: .5rem;
+}
+
+.ChatProfileContainer {
+    flex: 1;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    padding-bottom: 2rem;
+}
+
+.ChatProfileContainer::-webkit-scrollbar {
+    display: none;
+}
+
+.ChatProfileBox {
+    width: 100%;
+    height: 9.4rem;
+    background: #FEFEFE;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2.9rem 0 1.7rem;
+    cursor: pointer;
+}
+
+.ChatProfileBoxLeft {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.ChatProfileImage {
+    width: 7rem;
+    height: 7rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.ChatProfileImage img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.ChatProfileText {
+    display: flex;
+    flex-direction: column;
+}
+
+.ChatProfileText h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 3.3rem;
+    color: #000000;
+}
+
+.ChatProfileText h5 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    color: #696969;
+}
+
+.ChatProfileBox span {
+    width: 1.74rem;
+    height: 1.9rem;
+    background: radial-gradient(182.17% 182.12% at 84.26% -57.7%, #5609F9 11.62%, #4B2699 100%);
+    border-radius: 3.80312px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.19rem;
+    line-height: 1.7rem;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ChatProfileBox p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    color: #A2A2A2;
+}
+
+.RightChatContainer {
+    position: relative;
+    height: 100%;
+    width: 93rem;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.31);
+    border-radius: 0px 3.5rem 0px 0px;
+    overflow: hidden;
+}
+
+.ActiveChatContainer {
+    width: 100%;
+    height: 100%;
+    padding: 4.6rem 6.1rem 4.3rem 4.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.ActiveChatProfileContainer {
+    width: 100%;
+    height: 11.5rem;
+    border: 1.43128px solid #AFB6FD;
+    filter: drop-shadow(0px 5.72512px 28.6256px rgba(0, 0, 0, 0.15));
+    border-radius: 1.68rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4.1rem 0 2.7rem;
+}
+
+.ActiveChatProfileLeft {
+    display: flex;
+    align-items: center;
+    gap: 3.46rem;
+}
+
+.ActiveChatProfileLeft img {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+}
+
+.ActiveChatProfileLeft h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.7rem;
+    line-height: 5.1rem;
+    color: #444444;
+}
+
+.ActiveChatProfileLeft h6 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.68rem;
+    line-height: 2.3rem;
+    color: #298B27;
+}
+
+.ThreeDotPopupContainer {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: calc(4.6rem + 11.5rem);
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 10;
+    background: rgba(255, 255, 255, 0.31);
+    backdrop-filter: blur(7px);
+    transition: all .2s ease-in-out;
+    transform: translateX(100rem);
+}
+
+.ActiveThreeDotPopup {
+    transform: translateX(0rem);
+}
+
+.ThreeDotButtonContainer {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: 1.3rem;
+    padding-right: 9.3rem;
+}
+
+.ThreeDotButtonContainer button {
+    width: 14.68rem;
+    height: 5.1rem;
+    background: rgba(0, 0, 0, 0.68);
+    border-radius: .6rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.44rem;
+    line-height: 2rem;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.ThreeDotButtonContainer button:hover {
+    background: rgb(0, 0, 0);
+}
+
+.ActiveChatSMSContainer {
+    margin: 1rem 0;
+    width: 100%;
+    flex: 1;
+    position: relative;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.ActiveChatSMSContainer::-webkit-scrollbar {
+    display: none;
+}
+
+.ActiveChatSMSContainer h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.35rem;
+    line-height: 3.3rem;
+    color: #989898;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.ChatBoxMy {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 1rem;
+}
+
+.ChatBoxYou {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+}
+
+.MyChatBox {
+    width: 40.9rem;
+    background: #3A0DBB;
+    border-radius: 3.5rem 3.5rem 0rem 3.5rem;
+    white-space: pre-wrap;
+    overflow: hidden;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    color: #FFFFFF;
+    padding: 2.3rem 4rem 2rem 4rem;
+}
+
+.MyChatBox span {
+    margin-top: 1.4rem;
+    display: block;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.64rem;
+    line-height: 2.3rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.YourChatBox {
+    width: 40.9rem;
+    background: #AFB6FD;
+    border-radius: 3.5rem 3.5rem 3.5rem 0px;
+    white-space: pre-wrap;
+    overflow: hidden;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    color: #1E1E1E;
+    padding: 2.3rem 4rem 2rem 4rem;
+}
+
+.YourChatBox span {
+    margin-top: 1.4rem;
+    display: block;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.64rem;
+    line-height: 2.3rem;
+    color: #1E1E1E;
+}
+
+.ActiveChatInputContainer {
+    width: 95%;
+    height: 11.2rem;
+    background: #E8E7E7;
+    border-radius: 2.35rem;
+    display: flex;
+    align-items: center;
+    padding: 0 3rem 0 3.2rem;
+    gap: 2rem;
+}
+
+.ActiveChatInputContainer img {
+    cursor: pointer;
+}
+
+.ActiveChatInputContainer input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.77rem;
+    line-height: 3.8rem;
+    color: #000000;
+    user-select: #5609F9;
+}
+
+.ActiveChatInputContainer input::placeholder {
+    color: #919191;
+}
+
+.SendButton {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    background: radial-gradient(182.17% 182.12% at 84.26% -57.7%, #5609F9 11.62%, #4B2699 100%);
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: all .2s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.SendButton:active {
+    background: radial-gradient(182.17% 182.12% at 84.26% -57.7%, #250861 11.62%, #2a0f61 100%);
+}
+
+.ChatSettingContainer {
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.82);
+    backdrop-filter: blur(8px);
+    padding: 7.3rem 0 10rem 7rem;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.ChatSettingContainer::-webkit-scrollbar {
+    display: none;
+}
+
+.MSettingText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.6rem;
+    line-height: 3.6rem;
+    color: #000000;
+    margin-bottom: 6.8rem;
+}
+
+.MRBtn {
+    width: 60.7rem;
+    height: 11.58rem;
+    left: 83.4rem;
+    top: 21.67rem;
+    background: #EEEEEE;
+    border-radius: 1.38rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5.1rem 0 4.1rem;
+    border: none;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.MRBtn:hover {
+    background: #3A0DBB;
+}
+.MRBtn:hover h2{
+    color: #fff;
+}
+
+.MRBtn:hover p{
+    color: #eeeeee;
+}
+
+.MRBtn h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.42rem;
+    line-height: 3.4rem;
+    color: #000000;
+    display: flex;
+    align-items: flex-start;
+}
+
+.MRBtn p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.72rem;
+    line-height: 2.4rem;
+    color: #444444;
+}
+
+.MRBtn span {
+    width: 4.8rem;
+    height: 4.8rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #3A0DBB;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.7rem;
+    line-height: 2.4rem;
+    color: #FFFFFF;
+}
+
+.ChatSettingText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.95rem;
+    line-height: 2.7rem;
+    color: #000000;
+    margin-bottom: 2.4rem;
+    margin-top: 2.6rem;
+}
+
+.ChatSettingTextContainer {
+    width: 60.5rem;
+    height: 24.2rem;
+    background: #EEEEEE;
+    border-radius: 1.12rem;
+    padding: 3.97rem 3.9rem 0 2.8rem;
+    margin-bottom: 3.2rem;
+}
+
+.ChatSettingTextContainer h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.79rem;
+    line-height: 2.5rem;
+    color: #959595;
+}
+
+.InnerControlText {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.InnerControlText h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.79rem;
+    line-height: 2.5rem;
+    color: #323232;
+}
+
+.InnerControlText div {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.InnerControlText div p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.79rem;
+    line-height: 2.5rem;
+    color: #3A0DBB;
+}
+
+.InnerControlText span {
+    display: flex;
+    flex-direction: column;
+}
+
+.InnerControlText span h6 {
+    width: 24.9rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    color: #959595;
+}
+
+
+.AllowMessageFrom {
+    width: 60.5rem;
+    height: 25.9rem;
+    background: #EEEEEE;
+    border-radius: 1.12rem;
+    padding: 3.4rem 3.3rem 0 3.1rem;
+}
+
+.AllowMessageFrom h5 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.34rem;
+    line-height: 1.9rem;
+    color: #959595;
+    margin-bottom: 2.6rem;
+}
+
+.AllowCommentsBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.AllowCommentsBox p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    color: #323232;
+}
+
+.AllowCommentsBox span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: .8rem;
+    line-height: 1.1rem;
+    color: #959595;
+}
+
+.BlockMessageFromCont {
+    margin-top: 2.5rem;
+    width: 60.6rem;
+    height: 18.5rem;
+    background: #EEEEEE;
+    border-radius: 1.1rem;
+    padding: 3.4rem 3.2rem 0 2.8rem;
+}
+
+.BlockMessageFromCont h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.34rem;
+    line-height: 1.9rem;
+    color: #959595;
+    margin-bottom: 2.58rem;
+}
+
+.BlockMessageFromCont div {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    width: 100%;
+    height: 4.4rem;
+    background: #E7E9FE;
+    border: 0.674405px solid #E6E6E6;
+    border-radius: 1.12rem;
+    overflow: hidden;
+}
+
+.BlockMessageFromCont div input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.MessageRequestContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.MessageRequestText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.6rem;
+    line-height: 3.6rem;
+    color: #000000;
+    margin-bottom: 0.7rem;
+    padding: 7.8rem 4.3rem 0 6.6rem;
+}
+
+.MessageRequestText2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    color: #454545;
+    margin-bottom: 6.5rem;
+    padding: 0rem 4.3rem 0 6.6rem;
+}
+
+.SelectMessageReq {
+    position: absolute;
+    top: 9.6rem;
+    right: 4.3rem;
+    width: 12.2rem;
+    height: 4.1rem;
+    background: #E7E7E7;
+    border-radius: .6rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 1rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+
+.MessageRequestBoxContainer {
+    flex: 1;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    padding: 0rem 4.3rem 3rem 6.6rem;
+}
+
+.MessageRequestBoxContainer::-webkit-scrollbar {
+    display: none;
+}
+
+.MessageRequestBox {
+    width: 100%;
+    height: 6.6rem;
+    background: #FEFEFE;
+    border: 0.848341px solid #AFB6FD;
+    box-shadow: 0px 3.39336px 16.9668px rgba(0, 0, 0, 0.15);
+    border-radius: 1rem;
+    margin-bottom: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.6rem;
+}
+
+.CMRLeft {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.CMRLeft img {
+    width: 4.1rem;
+    height: 4.1rem;
+    border-radius: 50%;
+}
+
+.CMRLeft h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    color: #444444;
+}
+
+.CMRLeft h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.18rem;
+    line-height: 1.6rem;
+    color: #000000;
+}
+
+.CMRRight {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.CMRRight button {
+    width: 18.5rem;
+    height: 3.7rem;
+    background: rgba(77, 215, 74, 0.12);
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    color: #298B27;
+    transition: all .3s ease-in-out;
+}
+
+.CMRRight button:last-child {
+    background: rgba(254, 81, 81, 0.13);
+    color: #FE5151;
+}
+
+.CMRRight button:hover {
+    background: rgb(76, 215, 74);
+    color: #ffffff;
+}
+
+.CMRRight button:last-child:hover {
+    background: rgb(254, 81, 81);
+    color: #ffffff;
+}

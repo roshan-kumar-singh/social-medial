@@ -1,0 +1,312 @@
+.Container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.Container::-webkit-scrollbar {
+    display: none;
+}
+
+.Insights {
+    display: flex;
+    flex-direction: column;
+}
+
+.InsightsContainer {
+    width: 100%;
+    height: 100%;
+    padding: 0 30px 0 55px;
+    display: flex;
+    align-items: center;
+    gap: 56px;
+}
+
+.InsightsLeft {
+    flex-basis: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+
+}
+
+.InsightsLeft::-webkit-scrollbar {
+    display: none;
+}
+
+.InsightsLeft h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36.4836px;
+    line-height: 138.4%;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.InsightsLeft h4 {
+    width: 674.95px;
+    height: 68px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24.3224px;
+    line-height: 138.4%;
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 20px;
+}
+
+/* FIXME: */
+.GraphContainer {
+    width: 100%;
+    height: 669.19px;
+    border: 1px solid #000;
+    background: #3A0DBB;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.InsightsRight {
+    width: 272.76px;
+    height: 100%;
+    scrollbar-width: none;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.InsightsRight select {
+    width: 157.75px;
+    height: 83.25px;
+    background: #DDE0FF;
+    border-radius: 8.73719px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 138.4%;
+    color: #000000;
+    outline: none;
+    border: none;
+    padding: 0 20px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.InsightsBoxContainer {
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    padding-bottom: 50px;
+}
+
+.InsightsBoxContainer::-webkit-scrollbar {
+    display: none;
+}
+
+.InsightsBox {
+    width: 272.76px;
+    height: 257px;
+    color: rgba(33, 33, 33, 0.48);
+    border-radius: 22.122px;
+    padding: 118px 102px 74px 43px;
+    margin-bottom: 20px;
+    border: 1.1061px solid #9A9A9A;
+    cursor: pointer;
+}
+
+.InsightsBox.active {
+    background: linear-gradient(325.59deg, #2992E3 8.9%, #0F0AA4 100.7%);
+    color: #fff;
+}
+
+.InsightsBox h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46.4561px;
+    line-height: 138.4%;
+}
+
+.InsightsBox p {
+    width: 90.27px;
+    height: 46px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.4745px;
+    line-height: 138.4%;
+}
+
+
+/* AudienceInsights Start */
+
+.AudienceInsights {
+    margin-top: 69px;
+    width: 100%;
+    padding-right: 82px;
+}
+
+.AudienceInsightsTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.AudienceInsightsTop h5 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 138.4%;
+    color: #000000;
+}
+
+.AudienceInsightsTop p {
+    display: block;
+    margin-top: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 138.4%;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.AudienceInsightsTop select {
+    width: 108.63px;
+    height: 57px;
+    background: #DDE0FF;
+    border-radius: 8.73719px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 138.4%;
+    color: #000000;
+    outline: none;
+    border: none;
+    padding: 0 20px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.AudienceInsightsBottom {
+    display: flex;
+    align-items: center;
+}
+
+.AudienceInsightsBottom p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 138.4%;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.AudienceBottomLeftRight {
+    width: 413px;
+    height: 336px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 21px;
+    padding-right: 86px;
+}
+
+.AudienceBottomLeftRight button {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 138.4%;
+    color: rgba(0, 0, 0, 0.8);
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 39px;
+}
+
+.bottomGroup {
+    margin: 21px 0 0px 0px;
+}
+
+.bottomGroup div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bottomGroup span {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 16px;
+    width: 100%;
+    height: 18px;
+    position: relative;
+}
+
+.bottomGroup span p {
+    display: block;
+    position: relative;
+    height: 100%;
+    transition: all .2s ease;
+}
+
+.bottomGroup span p::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #3A0DBB;
+    transition: all .2s ease;
+    animation: wi 1s linear;
+}
+
+@keyframes wi {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+/* AudienceInsights End */
+.ProfileVisitMain{
+    gap: 0px;
+}
+.ProfileVisit>img {
+    width: 100%;
+    height: 295.49px;
+    margin-bottom: 21px;
+}
+
+.ProfileVisit .AudienceBottomLeftRight {
+    width: 100%;
+}

@@ -1,0 +1,227 @@
+/* Comment Container Start */
+.CommentMainContainer {
+    position: absolute;
+    left: 0;
+    top: 40%;
+    width: 100%;
+    height: 60%;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(3.5px);
+    z-index: 5;
+    border-radius: 9.82205px 9.82205px 21.9333px 19.8444px;
+}
+
+.CommentInnerContainer {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.shadowContainer {
+    position: absolute;
+    top: -80px;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background: linear-gradient(180deg, rgba(231, 233, 254, 0) 0%, #E7E9FE 97.51%);
+}
+
+.backBtnContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 75px 0px 60px;
+}
+
+.backBtnContainer div {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.backBtnContainer .downArrow {
+    cursor: pointer;
+    gap: 9px;
+}
+
+.backBtnContainer div img {
+    cursor: pointer;
+}
+
+.backBtnContainer div h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 123.4%;
+    color: #000000;
+}
+
+.CommentBoxContainer {
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    padding-bottom: 50px;
+    padding-top: 25px;
+}
+
+.CommentBoxContainer::-webkit-scrollbar {
+    width: 5px;
+}
+
+.CommentBoxContainer::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: rgb(5, 22, 255);
+}
+
+.CommentBoxContainer .MainCommentBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 602px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.CommentBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 14px;
+    width: 100%;
+    height: 72px;
+    background: #DDE0FF;
+    border-radius: 10px;
+    padding: 0 23px 0 14px;
+}
+
+.left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 7px;
+}
+
+.leftImage {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.leftImage img {
+    width: 100%;
+    height: 100%;
+}
+
+.leftText p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 123.4%;
+    color: #000000;
+}
+
+.leftText h4 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 123.4%;
+    color: #000000;
+    margin-bottom: 6px;
+}
+
+.leftText div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 123.4%;
+}
+
+.leftText div span {
+    cursor: pointer;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.right p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 123.4%;
+    color: #000000;
+}
+
+.SubCommentBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 360px;
+    height: 42.31px;
+    background: #DDE0FF;
+    border-radius: 4px;
+    margin-top: 5px;
+    padding: 0 20px 0 10px;
+}
+
+.SubCommentBox .left {
+    width: 100px;
+    overflow: hidden;
+}
+
+.SubCommentBox .leftImage {
+    width: 18.8px;
+    height: 18.8px;
+}
+
+.SubCommentBox .leftText {
+    width: 18.8px;
+    height: 18.8px;
+}
+
+.SubCommentBox .leftText p {
+    font-weight: 400;
+    font-size: 4.08681px;
+    line-height: 123.4%;
+}
+
+.SubCommentBox .leftText h4 {
+    font-weight: 400;
+    font-size: 5.72154px;
+    line-height: 123.4%;
+    width: 100%;
+}
+
+.SubCommentBox .leftText div span {
+    font-weight: 400;
+    font-size: 4.08681px;
+    line-height: 123.4%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Comment Container End */

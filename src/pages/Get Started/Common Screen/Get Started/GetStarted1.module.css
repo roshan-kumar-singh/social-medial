@@ -1,0 +1,107 @@
+.main-container {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.container {
+    width: 88rem;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translate(-0%, -50%);
+    padding: 10rem 15.8rem 7.9rem 12.2rem;
+    background: white;
+    box-shadow: 1rem 1rem 5rem rgba(0, 0, 0, 0.25);
+    border-radius: 1rem;
+}
+
+.container .heading {
+    font-weight: 600;
+    font-size: 6.2rem;
+    line-height: 9.3rem;
+}
+
+.container .text1 {
+    font-weight: 300;
+    font-size: 2.2rem;
+    line-height: 3.3rem;
+}
+
+.container .input {
+    margin: 2rem 0;
+    display: grid;
+    grid-row-gap: .9rem;
+}
+
+.container .input .text2 {
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 2.1rem;
+    color: #444444;
+}
+
+.container .text2 {
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 2.1rem;
+    color: #444444;
+}
+
+.container .input .input-box {
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: #909090;
+    background: #FFFFFF;
+    border: 1px solid #909090;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.container .buttons {
+    margin: 2.4rem 0 3.7rem 0;
+    display: flex;
+    gap: 1.2rem;
+}
+
+.container .buttons .btn {
+    flex: 1;
+    font: inherit;
+    background: #F2F2F2;
+    border: 1px solid #CCCCCC;
+    border-radius: 10px;
+    color: #CCCCCC;
+    padding: 1.9rem 3rem;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    text-align: center;
+}
+
+.container .buttons .btn-active {
+    flex: 1;
+    border: 1px solid #CCCCCC;
+    background: #3A0DBB;
+    font: inherit;
+    color: #CCCCCC;
+    padding: 1.9rem 3rem;
+    border: 1px solid #CCCCCC;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.container .btn2 {
+    width: 100%;
+    margin: 1rem 0;
+    background: #3A0DBB;
+    padding: 1.9rem 3rem;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}

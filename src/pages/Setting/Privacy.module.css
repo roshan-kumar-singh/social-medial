@@ -1,0 +1,482 @@
+.Container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.Container::-webkit-scrollbar {
+    display: none;
+}
+
+.Privacy {
+    display: flex;
+    gap: 4.4rem;
+    justify-content: center;
+}
+
+.LeftPrivacyContainer {
+    position: relative;
+    height: 100%;
+    width: 47.7rem;
+    font-size: 1rem;
+}
+
+.PrivacyText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 4.4rem;
+    line-height: 6.1rem;
+    color: #000000;
+    margin-top: 4rem;
+    margin-bottom: 5.3rem;
+}
+
+.PrivateAccountBox {
+    width: 100%;
+    height: 9.1rem;
+    background: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 2.8rem;
+    padding: 0rem 3.8rem 0rem 2.4rem;
+    margin-bottom: 1.4rem;
+}
+
+.PrivateAccountBox h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    color: #000000;
+}
+
+.PrivateAccountBox p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    color: #959595;
+}
+
+.PrivateAccountBox button {
+    padding: .5rem 1rem;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.InteractionsText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    color: #000000;
+    margin-top: 1.6rem;
+    margin-bottom: 1.7rem;
+}
+
+.InteractionsContainer {
+    width: 100%;
+    /* height: 38rem; */
+    overflow-y: scroll;
+    scrollbar-width: none;
+    padding-bottom: 3rem;
+}
+
+.InteractionsContainer::-webkit-scrollbar {
+    width: 1rem;
+    display: none;
+}
+
+.InteractionsContainer::-webkit-scrollbar-thumb {
+    background: #959595;
+    border-radius: 1rem;
+}
+
+.InteractionsBox {
+    width: 100%;
+    height: 8.6rem;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin-bottom: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3.6rem 0 4rem;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.InteractionsBox h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    color: #000000;
+}
+
+.InteractionsBox p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    color: #959595;
+}
+
+.active {
+    background: #3A0DBB;
+    color: #FFFFFF;
+}
+
+.active h3 {
+    color: #FFFFFF;
+}
+
+.active p {
+    color: #eee;
+}
+
+.active svg path {
+    fill: #fff;
+}
+
+.RightPrivacyContainer {
+    width: 59.6rem;
+    height: 100%;
+    position: relative;
+    font-size: 1rem;
+}
+
+.RightArrowDiv {
+    position: absolute;
+    top: 5rem;
+    right: 0;
+}
+
+.AllComponentRenders {
+    width: 100%;
+    margin-top: 15.8rem;
+}
+
+.CommentsBox {
+    width: 100%;
+    height: 28rem;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin-bottom: 2.4rem;
+    padding: 2.6rem 6.2rem 0 3.4rem;
+}
+
+.CommentsBox h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.76rem;
+    line-height: 3.8rem;
+    color: #000000;
+    margin-bottom: 3.5rem;
+}
+
+.CommentsBox p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    color: #959595;
+    margin-bottom: 2.2rem;
+}
+
+.CommentsInnerBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2.8rem;
+}
+
+.CommentsInnerBox h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    color: #323232;
+}
+
+.Everyone {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Everyone h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    color: #3A0DBB;
+    margin-right: 2.2rem;
+}
+
+.Everyone path {
+    fill: #959595;
+}
+
+.BlockCommentFrom p {
+    width: 22rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: .9rem;
+    line-height: 1.2rem;
+    color: #959595;
+}
+
+.AllowCommentsFrom {
+    width: 100%;
+    height: 28rem;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 2.9rem 6.3rem 0 3.7rem;
+}
+
+.AllowCommentsFrom h5 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    color: #959595;
+    margin-bottom: 2.3rem;
+}
+
+.AllowCommentsBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.AllowCommentsBox p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    color: #323232;
+}
+
+.AllowCommentsBox span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: .8rem;
+    line-height: 1.1rem;
+    color: #959595;
+}
+
+.BlockCommentFromSearch {
+    margin-top: 1.6rem;
+    width: 100%;
+    height: 16.4rem;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 3rem 7.4rem 0 3.7rem;
+}
+
+.BlockCommentFromSearch p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    color: #959595;
+    margin-bottom: 2.2rem;
+}
+
+.BlockCommentFromSearch div {
+    width: 100%;
+    height: 3.9rem;
+    background: #F9F9F9;
+    border: 0.6px solid #E6E6E6;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0 1.1rem;
+}
+
+.BlockCommentFromSearch div img {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-right: 1.1rem;
+}
+
+.BlockCommentFromSearch div input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.PostContainerInner {
+    width: 100%;
+    height: 22.3rem;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 2.7rem 6.1rem 0 3.4rem;
+}
+
+.PostContainerInner h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.7rem;
+    line-height: 3.8rem;
+    color: #000000;
+    margin-bottom: 2.5rem;
+}
+
+.PostContainerInner .InnerDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2.8rem;
+}
+
+.PostContainerInner .InnerDiv h5 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    color: #323232;
+}
+
+.PostContainerInner .InnerDiv span {
+    display: flex;
+    align-items: center;
+}
+
+.PostContainerInner .InnerDiv span p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    color: #3A0DBB;
+    margin-right: 2.1rem;
+}
+
+.PostContainerInner .InnerDiv span path {
+    fill: #959595;
+}
+
+.PostContainerInner .InnerDiv div {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.PostContainerInner .InnerDiv div h6 {
+    width: 12.9rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: .9rem;
+    line-height: 1.2rem;
+    color: #959595;
+}
+
+.AllowTagFrom {
+    margin-top: 1.15rem;
+    width: 100%;
+    height: 20.6rem;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 2.3rem 6.3rem 0 3.7rem;
+}
+
+.AllowTagFrom h5 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    color: #959595;
+    margin-bottom: 2rem;
+}
+
+.Mentions {
+    width: 100%;
+    height: 26rem;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 2.6rem 6.5rem 0 3.4rem;
+}
+
+.Mentions h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.7rem;
+    line-height: 3.8rem;
+    color: #000000;
+    margin-bottom: 0.8rem;
+}
+
+.Mentions h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    color: #959595;
+    margin-bottom: 1.3rem;
+}
+
+.Emagz {
+    width: 100%;
+    height: 26rem;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 2.6rem 6.5rem 0 3.4rem;
+}
+
+.Emagz h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.7rem;
+    line-height: 3.8rem;
+    color: #000000;
+    margin-bottom: 0.8rem;
+}
+
+.Emagz h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    color: #959595;
+    margin-bottom: 1.3rem;
+}
+
+.SpecificPerson {
+    cursor: pointer;
+    padding: 1rem;
+}

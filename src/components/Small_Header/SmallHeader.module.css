@@ -1,0 +1,196 @@
+/* SmallHeader start */
+.SmallHeader {
+    height: 7.5rem;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 3.8rem;
+}
+
+.SmallHeader-container {
+    height: 100%;
+    width: 20.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.SmallHeader-container button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.SmallHeader-container button.btn {
+    width: 4.8rem;
+    height: 4.8rem;
+    padding: 5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.SmallHeader-container button.btn:hover {
+    background: #CCD0FF;
+    transition: all .2s ease-in;
+
+}
+
+.SmallHeader-container button.btn:hover svg path {
+    transition: all .1s ease-in;
+    fill: #2992E3;
+}
+
+
+/* Notification Start */
+
+.NotificationContainer {
+    background: #fff;
+    width: 52.6rem;
+    height: auto;
+    z-index: 20;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 2rem;
+    overflow: hidden;
+    box-shadow: 0 0 1rem .5rem rgba(0, 0, 0, 0.3);
+}
+
+.NotificationContainer .NotTop {
+    width: 100%;
+    height: 9.5rem;
+    background: #E7E9FE;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3.9rem;
+}
+
+.NotificationContainer .NotTop h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.14rem;
+    line-height: 3rem;
+    color: #333333;
+}
+
+.NotificationContainer .NotTop button {
+    background: transparent;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 3rem;
+    color: #999999;
+    cursor: pointer;
+    border: none;
+    padding: 1rem 2rem;
+    outline: none;
+    border-radius: 1rem;
+}
+
+.NotificationContainer .NotTop button:active {
+    transition: all .3s ease-in-out;
+    background: #9c9595;
+    color: #fff;
+}
+
+.NotificationContainer .NotMiddle {
+    width: 100%;
+    height: auto;
+    background: #E7E9FE;
+}
+
+.NotificationContainer .NotMiddle .NotBox {
+    width: 100%;
+    height: 7.3rem;
+    background: #fff;
+    margin-bottom: .3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3.9rem 0 1.7rem;
+}
+
+.NotMiddle .NotBox div {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.NotMiddle .NotBox div div {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    padding: .5rem;
+}
+
+.NotMiddle .NotBox div div img {
+    width: 100%;
+    height: 100%;
+}
+
+.NotMiddle .NotBox div h5 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 3rem;
+    color: #000000;
+}
+
+.NotMiddle .NotBox div h5 p {
+    display: block;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 3rem;
+    color: #000000;
+}
+
+.NotMiddle .NotBox .timeText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 3rem;
+    color: #000000;
+}
+
+.NotificationContainer .NotBottom {
+    width: 100%;
+    height: 8.6rem;
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    cursor: pointer;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 3rem;
+    color: #3A0DBB;
+}
+
+.NotificationContainer .NotBottom:active {
+    transition: all .3s ease-in-out;
+    border: 1px solid #6d6d6d;
+    background: #6d6d6d;
+}
+
+
+
+
+
+
+
+/* Notification End */
+
+
+
+
+/* SmallHeader end */

@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+}
+
+*::selection {
+    color: rgb(255, 255, 255);
+    background: #020AFF;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+:root {
+    --gradient1: linear-gradient(183.75deg, #020AFF -5.47%, #23A3FF 22.86%, #2489D2 56.43%, #020EFF 88.42%);
+    --gradient2: linear-gradient(325.59deg, #2992E3 8.9%, #0F0AA4 100.7%);
+    --gradient3: linear-gradient(235.29deg, #020AFF -8.02%, #23A3FF 31.36%, #2489D2 68.48%, #020EFF 92.57%);
+    --gradient4: linear-gradient(58deg, #0F0AA4 23.31%, #2992E3 117.48%);
+    --dark-blue: #3A0DBB;
+    --violet1: #E7E9FE;
+    --violet2: #AFB6FD;
+    --violet3: #DBDEFF;
+    --violet4: #E7E9FE;
+    --violet5-gradient: linear-gradient(96.27deg, #F8F8F8 12.98%, #DCE5FF 93.38%);
+    --violet6: #CCD0FF;
+}
+
+#root {
+    overflow: hidden;
+    height: 100vh;
+}
+
+.Toastify {
+    position: absolute;
+    z-index: 99999;
+}
+
+:root {
+    font-size: 72.5%;
+}

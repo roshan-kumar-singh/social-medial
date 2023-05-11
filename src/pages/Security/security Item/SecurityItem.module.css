@@ -1,0 +1,30 @@
+.info-container {
+    width: 45.6rem;
+    height: 8.7rem;
+    border-radius: .9rem;
+    background: #FFFFFF;
+    padding: 1.3rem 2.4rem 0 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info-container .subject {
+    display: grid;
+    grid-row-gap: .2rem;
+}
+
+.info-container .subject .heading {
+    font-weight: 500;
+    font-size: 1.72rem;
+    line-height: 2.4rem;
+
+}
+
+.info-container .subject .content {
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    width: 20rem;
+    color: #959595;
+}

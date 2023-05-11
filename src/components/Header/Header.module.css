@@ -1,0 +1,124 @@
+/* Header start*/
+.HeaderContainer {
+    width: 10.2rem;
+    height: 90%;
+    background: linear-gradient(96.27deg, #F8F8F8 12.98%, #DCE5FF 93.38%);
+    box-shadow: inset -5px -4px 10px rgba(27, 71, 193, 0.15), inset 4px 3px 11px rgba(27, 71, 193, 0.15);
+    border-radius: 1.2rem;
+    margin-top: 1.6rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4.2rem 0;
+}
+
+.HeaderContainer .navContainer {
+    width: 100%;
+    height: 100%;
+}
+
+.HeaderContainer .navContainer ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.HeaderContainer .navContainer ul li {
+    list-style: none;
+    text-align: center;
+    transform: rotate(-90deg);
+}
+
+.HeaderContainer .navContainer ul li a {
+    display: block;
+    padding: .4rem;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: #000000;
+}
+
+.HeaderContainer .logoContainer a,
+.HeaderContainer .logoutContainer a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+.HeaderContainer .LogoutPopup {
+    width: 61.rem;
+    height: 36.8rem;
+    background: #fff;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    z-index: 11;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 5.4rem 6.7rem;
+}
+
+.LogoutPopup h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4.2rem;
+    line-height: 5.2rem;
+    color: #000000;
+}
+
+.LogoutPopup h1 span {
+    display: block;
+    font-weight: 700;
+}
+
+.LogoutPopup div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.6rem;
+    gap: 4rem;
+}
+
+.LogoutPopup div button {
+    width: 21.8rem;
+    height: 6.2rem;
+    background: #D7DAFF;
+    border-radius: 1rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: #000000;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.LogoutPopup div button:last-child {
+
+    background: #F23F3F;
+    color: #fff;
+}
+
+.LogoutPopup div button:hover {
+    transition: all .3s ease-in-out;
+    background: #b9b9b9;
+}
+
+.LogoutPopup div button:last-child:hover {
+    transition: all .3s ease-in-out;
+    background: #881c1c;
+}
+
+/* Header end*/

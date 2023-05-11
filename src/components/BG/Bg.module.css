@@ -1,0 +1,36 @@
+ .bg {
+    width: 100%;
+    height: 100vh;
+    background: var(--gradient4);
+    overflow: hidden;
+    position: relative;
+}
+
+.bg .white {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.bg .white img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 10px solid #00f;
+    transform: scale(1.5) rotate(0deg);
+}
+
+.bg .logo {
+    position: relative;
+    top: 10%;
+    left: 6%;
+    width: 33rem;
+    height: 35rem;
+}
+
+.bg .logo img {
+    Opacity: 70%;
+    width: 100%;
+    height: 100%
+}

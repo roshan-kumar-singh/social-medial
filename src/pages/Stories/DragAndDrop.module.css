@@ -1,0 +1,237 @@
+.PopupMainContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(153, 155, 167, 0.28);
+  z-index: 10;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.PopupContainer {
+  height: 100%;
+  width: 794px !important;
+  flex-basis: 794px !important;
+  max-width: 100%;
+  background: #FFFFFF;
+  box-shadow: 10px 10px 43px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.PopupClose {
+  flex-basis: 50%;
+}
+
+/* .InnerPopup {
+  
+} */
+
+.InnerPopup h1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44.5075px;
+  line-height: 67px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 97px;
+}
+
+.InnerPopup h4 {
+  font-family: 'Poppins';
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21.4828px;
+  line-height: 32px;
+  color: #000000;
+  margin-bottom: 34px;
+}
+
+
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.buttonContainer .button {
+  width: 358.05px;
+  height: 81.16px;
+  background: #DFECFF;
+  border-radius: 11.9349px;
+  border: none;
+  margin-bottom: 10px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21.4828px;
+  line-height: 32px;
+  color: #054BFF;
+  cursor: pointer;
+}
+
+
+
+/* cropper start*/
+.mainDivCropper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #000;
+  box-shadow: 10px 10px 43px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  z-index: 15;
+}
+
+.controls {
+  margin-top: 84px;
+  padding: 0 145px 0 124px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.controls img {
+  margin-right: 31px;
+  cursor: pointer;
+}
+
+.mainCropContainer {
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 11;
+  display: flex;
+  flex-direction: column;
+}
+
+/* cropper end */
+
+
+/* ImageBackground  start*/
+.ImageBackground {
+  overflow: hidden;
+  padding-top: 66px;
+  background: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ImageBackground img {
+  width: 559.08px;
+  height: 730px;
+}
+
+.actionContainer {
+  width: 290px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 36px;
+}
+
+.actionContainer div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60px;
+  cursor: pointer;
+}
+
+.actionContainer div:active img {
+  transition: all .3s ease-in-out;
+  transform: scale(1.5);
+}
+
+.actionContainer div p {
+  width: 24px;
+  height: 24px;
+  font-weight: 600;
+  font-size: 18.9641px;
+  line-height: 123.4%;
+  color: #FFFFFF;
+  margin-left: 5px;
+}
+
+.actionContainer img {
+  width: 100%;
+  height: 100%;
+}
+
+/* ImageBackground  end*/
+
+
+
+
+
+/* TextBox Start*/
+
+.TextBox {
+  overflow: hidden;
+  background: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+}
+.TextBox .controls {
+  user-select: none;
+}
+
+
+.ColorPicker{
+  position: absolute;
+  top: 133px;
+  left: 272px;
+}
+
+.TextBox textarea {
+  margin-top: 50px;
+  resize: none;
+  border: none;
+  outline: none;
+  height: 100%;
+  padding: 30px 50px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 101.846px;
+  line-height: 123.4%;
+  color: #FFFFFF;
+  background: transparent;
+  text-align: center;
+}
+
+.TextBox textarea::-webkit-scrollbar {
+  width: 5px;
+}
+
+.TextBox textarea::-webkit-scrollbar-thumb {
+  background: #054BFF;
+}
+
+
+
+/* TextBox end*/

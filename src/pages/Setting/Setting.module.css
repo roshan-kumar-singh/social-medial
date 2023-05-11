@@ -1,0 +1,394 @@
+.Container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.Container::-webkit-scrollbar {
+    display: none;
+}
+
+.Setting {
+    display: flex;
+    gap: 10.7rem;
+    justify-content: center;
+}
+
+.LeftSettingContainer {
+    position: relative;
+    height: 110vh;
+    width: 50.6rem;
+    font-size: 1rem;
+}
+
+.SettingText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 4.4rem;
+    line-height: 6.1rem;
+    color: #000000;
+    margin-top: 4rem;
+    margin-bottom: 3.7rem;
+}
+
+.AccountText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.9rem;
+    line-height: 4.1rem;
+    color: #000000;
+    margin-bottom: 1.5rem;
+}
+
+.AccountDiv {
+    width: 100%;
+    height: 37.5rem;
+    background: #F5F5F5;
+    border-radius: 26.4397px;
+    display: flex;
+    flex-direction: column;
+    padding: 1.74rem 3.5rem 3.89rem 2.64rem;
+}
+
+.AccountDivTop {
+    display: flex;
+    gap: 3.9rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.AccountDivTop .ProfileImageContainer {
+    height: 15.2rem;
+    width: 15.2rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.AccountDivTop .ProfileImageContainer input {
+    display: none;
+}
+
+.AccountDivTop .ProfileImageContainer .SelectImageBtn {
+    width: 3.5rem;
+    height: 3.5rem;
+    background: #FFFFFF;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+    z-index: 2;
+    border-radius: 50%;
+    padding: .9rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.AccountDivTop .ProfileImageContainer .SelectImageBtn img {
+    width: 100%;
+    height: 100%;
+}
+
+.AccountDivTop .ProfileImageContainer .ProfileImg {
+    height: 15.2rem;
+    width: 15.2rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.AccountDivTop .ProfileImageContainer .ProfileImg img {
+    min-height: 15.2rem;
+    width: 15.2rem;
+}
+
+.AccountDivTop .NameContainer {
+    height: 15.2rem;
+    flex-basis: calc(100% - 15.2rem - 3.9rem);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.AccountDivTop .NameContainer h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3.3rem;
+    line-height: 4.7rem;
+    color: #000000;
+}
+
+.AccountDivTop .NameContainer p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: #959595;
+}
+
+.AccountDivBottom {
+    margin-top: 1.6rem;
+}
+
+.AccountDivBottom h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.48rem;
+    line-height: 2rem;
+    color: #959595;
+}
+
+.AccountDivBottom p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.26rem;
+    line-height: 1.8rem;
+    color: #323232;
+}
+
+.AccountDivBottom .AccountDivBottomBottom {
+    margin-top: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 5rem;
+}
+
+.AccountDivBottom .AccountDivBottomBottom button:first-child {
+    width: 17rem;
+    height: 4.67rem;
+    background: transparent;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.26rem;
+    line-height: 1.5rem;
+    color: #000;
+}
+
+.AccountDivBottom .AccountDivBottomBottom button {
+    width: 17rem;
+    height: 4.67rem;
+    background: #3A0DBB;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.26rem;
+    line-height: 1.5rem;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.ActiveContainer {
+    margin-top: 3.27rem;
+}
+
+.ActiveText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.96rem;
+    line-height: 4.1rem;
+    color: #000000;
+}
+
+.ActiveTextP {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.9rem;
+    line-height: 2.6rem;
+    color: #000000;
+    margin-top: 1.29rem;
+}
+
+.SwitchContainer {
+    margin-top: 1.68rem;
+    display: flex;
+    align-items: center;
+}
+
+.SwitchText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+    color: #323232;
+    margin-left: 1.9rem;
+}
+
+.LogOutBtn {
+    width: 100%;
+    height: 9rem;
+    background: #232323;
+    border-radius: 10.5759px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.9rem;
+    line-height: 2.6rem;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-top: 6.2rem;
+}
+
+.AddAccountText {
+    display: block;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.9rem;
+    line-height: 2.6rem;
+    color: #323232;
+    text-align: center;
+    margin-top: 6.1rem;
+    padding-bottom: 6.3rem;
+    text-decoration: none;
+}
+
+.RightSettingContainer {
+    width: 50.4rem;
+    min-height: 110vh;
+    position: relative;
+    font-size: 1rem;
+}
+
+.PreferenceText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.96rem;
+    line-height: 4.1rem;
+    color: #000000;
+    margin-bottom: 2.1rem;
+    margin-top: 13rem;
+}
+
+.PreferenceContainer {
+    margin-bottom: 1.68rem;
+    width: 100%;
+    height: 9.62rem;
+    background: #FFFFFF;
+    border-radius: 10.5759px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5.1rem 0 3.3rem;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+
+.PreferenceContainer h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.9rem;
+    line-height: 2.6rem;
+    color: #000000;
+}
+
+.PreferenceContainer p {
+    display: block;
+    height: 3.6rem;
+    width: 22.4rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.26rem;
+    line-height: 1.8rem;
+    color: #959595;
+}
+.PreferenceContainer:hover {
+    background: #3A0DBB;
+}
+.PreferenceContainer:hover h3{
+    color: #fff;
+}
+.PreferenceContainer:hover p{
+    color: #EEEEEE;
+}
+.PreferenceContainer:hover path{
+    fill: #fff;
+}
+
+.PreferenceContainerSwitch {
+    margin-bottom: 1.68rem;
+    width: 100%;
+    height: 9.62rem;
+    background: #FFFFFF;
+    border-radius: 10.5759px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5.1rem 0 3.3rem;
+}
+
+.PreferenceContainerSwitch h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.9rem;
+    line-height: 2.6rem;
+    color: #000000;
+}
+
+.h31 {
+    width: 13.8rem;
+}
+
+.h32 {
+    width: 23.7rem;
+}
+
+.h33 {
+    width: 19.9rem;
+}
+
+.BlockContainer {
+    padding-left: 1rem;
+    margin-top: 2.75rem;
+}
+
+.BlockContainer h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.96rem;
+    line-height: 4.1rem;
+    color: #000000;
+}
+
+.BlockContainer p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.9rem;
+    line-height: 2.6rem;
+    color: #403F3F;
+    margin-top: 1.5rem;
+}
+
+.BlockContainer a {
+    display: block;
+    margin-top: 3.3rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.9rem;
+    line-height: 2.6rem;
+    color: #3A0DBB;
+    text-decoration: none;
+}

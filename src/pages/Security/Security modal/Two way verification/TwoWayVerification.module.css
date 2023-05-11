@@ -1,0 +1,117 @@
+.overlay {
+    background-color: white;
+    padding: 8rem 3.9rem 0 5.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    width: 58.9rem;
+    height: 96vh;
+    position: fixed;
+    top: 50%;
+    right: 2%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+}
+
+.overlay .container h2 {
+    font-weight: 600;
+    font-size: 2.7rem;
+    line-height: 3.7rem;
+    color: black;
+}
+
+.overlay .container p {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: #959595;
+    margin-top: 1rem;
+    width: 32rem;
+}
+
+.overlay .form {
+    margin: 5rem 0;
+    padding: 3.5rem 1.7rem 0 1.89rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 1.42239px solid #3A0DBB;
+    filter: drop-shadow(14.2239px 14.2239px 21.3359px rgba(17, 17, 17, 0.15));
+    border-radius: 2.9rem;
+}
+
+.overlay .form .text .heading {
+    font-weight: 500;
+    font-size: 3.21rem;
+    line-height: 4.8rem;
+    color: #444444;
+    margin-bottom: 0.89rem;
+}
+
+.overlay .form .text .sub-text {
+    font-weight: 400;
+    font-size: 1.45rem;
+    line-height: 2.2rem;
+    color: #999999;
+    margin-bottom: 2rem;
+}
+
+.overlay .form label {
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 3rem;
+    color: #444444;
+    margin-bottom: 1rem;
+}
+
+.overlay .form .input {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 3rem;
+}
+
+.overlay .form .input .input-box {
+    border-radius: 1.2rem;
+    border: none;
+    width: 5.7rem;
+    height: 5.5rem;
+    background-color: #FDFDFD;
+    cursor: pointer;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+
+.overlay .form .actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.overlay .form .actions .btn {
+    font-size: 1.7rem;
+    line-height: 2.6rem;
+    margin-bottom: 4rem;
+    width: 100%;
+    padding: 1rem;
+    background-color: #3A0DBB;
+    color: #ffffff;
+    border: none;
+    filter: drop-shadow(0px, 4.07px, 20.35px rgba(0, 0, 0, 0.25));
+}
+
+.overlay .form .actions .text2 {
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 3rem;
+    color: #444444;
+    margin-bottom: 3rem;
+}
+
+.overlay .form .actions .text2 span {
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 3rem;
+    color: #3A0DBB;
+    margin-left: 1rem;
+}
